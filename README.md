@@ -14,13 +14,13 @@ By combining advanced Random Forest Classification with cybersecurity domain kno
 ## Output Screenshots
 
 ### Landing Page
-![Homepage](https://drive.google.com/uc?export=view&id=1rzTLr9ovOKFGxVpWdJdW3tLM4G7uCmqb)
+![Homepage]()
 
 ### Result 1
-![Result](https://drive.google.com/uc?export=view&id=1yMtyhShok9n3rdWZZbE2eLB7gCIixkif)
+![Result]()
 
 ### Result 2
-![Result](https://drive.google.com/uc?export=view&id=1mkRYU239TZehRSEf2wJR6wpj7UGhAa-R)
+![Result]()
 
 
 ---
