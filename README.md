@@ -5,54 +5,54 @@
 
 ## 📌 Project Description
 
-In an increasingly interconnected digital landscape, the security of organizational networks and sensitive data is of paramount importance. This project focuses on the development of an AI-Enhanced Intrusion Detection System that leverages machine learning to detect, classify, and respond to network intrusions with high accuracy.
+In an increasingly interconnected digital landscape, the security of organizational networks and sensitive data is of paramount importance. This project focuses on the development of an *AI-Enhanced Intrusion Detection System* that leverages machine learning to detect, classify, and respond to network intrusions with high accuracy.
 
-By combining advanced Random Forest Classification with cybersecurity domain knowledge, the system empowers organizations to proactively combat evolving threats.
+By combining advanced *Random Forest Classification* with cybersecurity domain knowledge, the system empowers organizations to proactively combat evolving threats.
 
 ---
 
 ## Output Screenshots
 
 ### Landing Page
-![Homepage](https://drive.google.com/uc?export=view&id=1YKmTXoo7uxP4wzwc7Z8tMn2dC9u7YvEF)
+![Homepage](https://drive.google.com/file/d/1YKmTXoo7uxP4wzwc7Z8tMn2dC9u7YvEF/view?usp=sharing)
 
 ### Result 1
-![Result](https://drive.google.com/uc?export=view&id=1q02lxqCZ1tIirLuwv92sdM9l8QNQvU3T)
+![Result](https://drive.google.com/file/d/1q02lxqCZ1tIirLuwv92sdM9l8QNQvU3T/view?usp=sharing)
 
 ### Result 2
-![Result](https://drive.google.com/uc?export=view&id=1RcvQkEWlJJxTU-gd53BzWHbwKXVfaTk1)
+![Result](https://drive.google.com/file/d/1RcvQkEWlJJxTU-gd53BzWHbwKXVfaTk1/view?usp=sharing)
 
 
 ---
 
-## 🛠 Technologies Used
+## 🛠 *Technologies Used*
 
-- Python 3.10+
-- Flask (Backend Web Framework)
-- HTML / CSS (Frontend UI)
-- Pandas / NumPy (Data Manipulation)
-- Scikit-learn (Machine Learning)
-- Imbalanced-learn (SMOTE for Class Balancing)
-- Joblib (Model Serialization)
+- *Python 3.10+*
+- *Flask (Backend Web Framework)*
+- *HTML / CSS (Frontend UI)*
+- *Pandas / NumPy (Data Manipulation)*
+- *Scikit-learn (Machine Learning)*
+- *Imbalanced-learn (SMOTE for Class Balancing)*
+- *Joblib (Model Serialization)*
 
 ---
 
-## 🧠 Model Details
+## 🧠 *Model Details*
 
-The Intrusion Detection System uses a Random Forest Classifier trained on a preprocessed and balanced network intrusion dataset. The model is enhanced with SMOTE to handle class imbalance.
+The Intrusion Detection System uses a *Random Forest Classifier* trained on a preprocessed and balanced network intrusion dataset. The model is enhanced with *SMOTE* to handle class imbalance.
 
 The final model is saved as:
 
 bash
-
+```
 random_forest_model_4_features.joblib
-
+```
 
 ---
 
-## 🗂 Project Directory Structure
+## 🗂 *Project Directory Structure*
 
-bash
+```bash
 AI-ENHANCED-INTRUSION-DETECTION/
 ├── CYBER_PROJECT/
 │ ├── templates/
@@ -65,25 +65,25 @@ AI-ENHANCED-INTRUSION-DETECTION/
 │ └── README.md                                  # Project documentation
 ├── Documentation...
 └── README.md 
-
+```
 
 ---
 
-## ⚙ Installation & Setup
+## ⚙ *Installation & Setup*
 
 ### Using Conda (Recommended)
 
-bash
+```bash
 conda create -n cyber_ids python=3.10
 conda activate cyber_ids
 git clone [https://github.com/prajwalnikam/Cyber-ai-enhanced-intrusion-detection-system.git]
 cd CYBER_PROJECT
 pip install -r requirment.txt
-
+```
 
 ### Using Python venv
 
-bash
+```bash
 python -m venv ids_env
 
 # Windows:
@@ -93,27 +93,27 @@ ids_env\Scripts\activate
 source ids_env/bin/activate
 
 pip install -r requirment.txt
-
+```
 ---
 
-## Running the Application
+## *Running the Application*
 
-bash
+```bash
 cd Flask
 python app.py
-
+```
 
 Open your browser and go to:  
-  [http://localhost:5000]
+  [http://127.0.0.1:5000/]
 
 ---
 
-## Dataset Overview
+## *Dataset Overview*
 
 The web_attacks_balanced.csv dataset includes labeled network traffic data categorized into different types of intrusions and normal behavior.
 
 ---
 
-## Conclusion
+## *Conclusion*
 
-This project showcases how artificial intelligence and machine learning can be effectively applied to cybersecurity for real-time intrusion detection and network threat mitigation. With high accuracy and automation, this AI-powered IDS reduces response time and enhances the overall security posture of an organization.
+This project showcases how artificial intelligence and machine learning can be effectively applied to cybersecurity for real-time intrusion detection and network threat mitigation. With high accuracy and automation, this AI-powered IDS reduces response time and enhances the overall security posture of an organization.
